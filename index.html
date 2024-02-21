@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Marmelade und mehr - Baldham</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/jam.ico" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <!-- Responsive navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container px-5">
+                <a class="navbar-brand" href="index.html">Marmelade und mehr - Baldham</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="termine.html">Termine</a></li>
+                        <li class="nav-item"><a class="nav-link" href="produkte.html">Produkte</a></li>
+                    </ul>
+                </div>
+            </div> 
+        </nav>
+        <!-- Page Content-->
+        <div class="container px-4 px-lg-5">
+            <!-- Heading Row-->
+            <div class="row gx-4 gx-lg-5 align-items-center my-5">
+                <div class="col-lg-7"><img class="img-fluid rounded mb-4 mb-lg-0" src="assets/stand.jpg" alt="..." /></div>
+                <div class="col-lg-5 text-center ">
+                    <h1 class="font-weight-light">Marmelade und mehr...</h1>
+                    <p>Hausgemachte Produkte wie Aufstriche, Öle, Waffeln und vieles mehr! Mit Liebe gemacht und immer frisch!</p>
+                    <a class="btn btn-custom" href="produkte.html">Zur Produktübersicht</a>
+                </div>
+            </div>
+            <!-- Call to Action-->
+            <div class="card text-white bg-secondary my-5 py-4 text-center">
+                <div class="card-body"><p class="text-white m-0">Sie finden mich jeden Freitag zw. 11:00 bis 17:00 Uhr auf dem Wochenmarkt, Reitsberger - Erlebnishof,  Baldhamer Straße 99, 85591 Vaterstetten</p></div>
+            </div>
+            <!-- Content Row-->
+            <div class="row gx-4 gx-lg-5">
+                <div class="col-md-4 mb-5">
+                    <div class="card h-80 text-center">
+                        <div class="card-body">
+                            <h2 class="card-title">Gemischtes</h2>
+                            <p class="card-text">Fruchtaufstriche,
+                                Diät-Produkte,
+                                Chutneys / Pesto,
+                                Senf / Meerrettich,
+                                Essig / Öl,
+                                Limes / Liköre,
+                                Säfte / Sirup,
+                                Geschenkkörbe</p>
+                        </div>
+                        <div class="card-footer"><a class="btn btn-custom btn-sm" href="produkte.html">Zur Preisliste</a></div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-5">
+                    <div class="card h-100 text-center">
+                        <div class="card-body">
+                            <h2 class="card-title">Süße Sparte</h2>
+                            <p class="card-text">Frische Waffeln und Kaffee!</p>
+                        </div>
+                        <div class="card-footer">
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-custom btn-sm" data-bs-toggle="modal" data-bs-target="#sweetModal">
+                                Jetzt entdecken
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-5">
+                    <div class="card h-100 text-center">
+                        <div class="card-body">
+                            <h2 class="card-title">Alternativen</h2>
+                            <p class="card-text">Kaltes und Warmes Buffet!</p>
+                        </div>
+                        <div class="card-footer">
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-custom btn-sm" data-bs-toggle="modal" data-bs-target="#alternativeModal">
+                                Jetzt entdecken
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer-->
+        <footer class="py-5 bg-dark">
+            <div class="container px-4 px-lg-5"><p class="m-0 text-center text-white">Gültig ab: November 2023 , <a href="impressum.html">Impressum</a></p></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+
+        <!-- Sweet Modal -->
+        <div class="modal fade" id="sweetModal" tabindex="-1" aria-labelledby="sweetModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="sweetModalLabel">Süße Sparte</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div id="sweetCarousel" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="assets/waffel1.jpg" class="d-block w-100" alt="Image 1">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>Waffel mit frischen Erdbeeren</h5>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/waffel2.jpg" class="d-block w-100" alt="Image 2">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>Waffel mit Süsskirschen und einer Kugel Vanilleeis (und/oder Schlagsahne) </h5>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/waffel3.jpg" class="d-block w-100" alt="Image 2">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>Waffel mit Bratapfel oder Zwetschge und Schlagsahne (und/oder Vanilleeis)</h5>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/waffel4.jpg" class="d-block w-100" alt="Image 2">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>   Waffel mit Puderzucker oder mit Zimt und Zucker</h5>
+                                    </div>
+                                </div>
+                                <!-- Add more carousel items as needed -->
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#sweetCarousel" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#sweetCarousel" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Alternative Modal (similar to Sweet Modal, but with different content) -->
+        <div class="modal fade" id="alternativeModal" tabindex="-1" aria-labelledby="alternativeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="alternativeModalLabel">Alternativen - Preise und Getränke auf Anfrage
+                            </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div id="alternativeCarousel" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="assets/b1.jpg" class="d-block w-100" alt="Image 3">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>Je nach Ihren Anlaß - kaltes Buffet zur Selbstbedienung</h5>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/b2.jpg" class="d-block w-100" alt="Image 4">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>Je nach Ihren Anlaß - kaltes Buffet zur Selbstbedienung</h5>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/b3.jpg" class="d-block w-100" alt="Image 4">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>Je nach Ihren Anlaß - kaltes Buffet zur Selbstbedienung</h5>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/b4.jpg" class="d-block w-100" alt="Image 4">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>Je nach Ihren Anlaß - kaltes Buffet zur Selbstbedienung</h5>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/b5.jpg" class="d-block w-100" alt="Image 4">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>Je nach Ihren Anlaß - kaltes Buffet zur Selbstbedienung</h5>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/b6.jpg" class="d-block w-100" alt="Image 4">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>Je nach Ihren Anlaß - kaltes Buffet zur Selbstbedienung</h5>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/b7.jpg" class="d-block w-100" alt="Image 4">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>Je nach Ihren Anlaß - kalte Platten - fertig vorbereitet</h5>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/b8.jpg" class="d-block w-100" alt="Image 4">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>Je nach Ihren Anlaß - Dessert zur Selbstbedienung</h5>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/b9.jpg" class="d-block w-100" alt="Image 4">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>Je nach Ihren Anlaß - Dessert zur Selbstbedienung</h5>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/b10.jpg" class="d-block w-100" alt="Image 4">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>Je nach Ihren Anlaß - warmes Buffet zur Selbstbedienung</h5>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/b11.jpg" class="d-block w-100" alt="Image 4">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>Je nach Ihren Anlaß - warmes Buffet zur Selbstbedienung</h5>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/b12.jpg" class="d-block w-100" alt="Image 4">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>Je nach Ihren Anlaß - warmes Buffet zur Selbstbedienung</h5>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/b13.jpg" class="d-block w-100" alt="Image 4">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>Je nach Ihren Anlaß - warmes Buffet zur Selbstbedienung</h5>
+                                    </div>
+                                </div>   
+                                <!-- Add more carousel items as needed -->
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#alternativeCarousel" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#alternativeCarousel" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
